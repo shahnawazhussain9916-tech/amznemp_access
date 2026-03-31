@@ -1,0 +1,89 @@
+.dashboard-card {
+  background: #ffffff;
+  padding: 24px;
+  border-radius: 10px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+  margin-top: 20px;
+}
+
+.dashboard-title {
+  font-size: 22px;
+  font-weight: 600;
+  color: #131921;
+  margin-bottom: 20px;
+}
+
+/* Controls */
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.input, .select {
+  padding: 10px 14px;
+  border-radius: 6px;
+  border: 1px solid #dcdfe6;
+  outline: none;
+}
+
+.input:focus, .select:focus {
+  border-color: #f90; /* Amazon orange */
+  box-shadow: 0 0 0 2px rgba(249, 168, 37, 0.2);
+}
+
+.button {
+  padding: 10px 16px;
+  background: #f90;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: 0.2s;
+}
+
+.button:hover {
+  background: #c77000;
+}
+
+/* Table */
+.dashboard-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.dashboard-table th,
+.dashboard-table td {
+  padding: 12px;
+  border-bottom: 1px solid #eee;
+  text-align: left;
+}
+
+.dashboard-table thead {
+  background-color: #f0f2f5;
+  position: sticky;
+  top: 0;
+}
+
+.dashboard-table tbody tr:hover {
+  background-color: #f9f9f9;
+}
+
+.total-row {
+  background-color: #fafafa;
+  font-weight: bold;
+}
+
+.no-result {
+  margin-top: 15px;
+  color: #e74c3c;
+  font-weight: 500;
+}
+
+.loading {
+  margin-top: 10px;
+  color: #555;
+}

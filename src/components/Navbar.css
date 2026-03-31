@@ -1,0 +1,26 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 30px;
+  background-color: #131921; /* Amazon dark blue */
+  color: white;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+.navbar-logo {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.navbar-links a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.2s;
+}
+
+.navbar-links a:hover {
+  text-decoration: underline;
+}
