@@ -38,3 +38,33 @@
 }
 
 
+.dropdown {
+  position: absolute;
+  background: white;
+  border: 1px solid #ccc;
+  width: 100%;
+  z-index: 10;
+}
+
+.dropdown div {
+  padding: 8px;
+  cursor: pointer;
+}
+
+.dropdown div:hover {
+  background: #f1f1f1;
+}
+
+.highlight-row {
+  background-color: #d1fae5;
+}
+
+.highlight-row {
+  background-color: #d1fae5;
+}
+
+.not-found {
+  color: red;
+  margin: 10px 0;
+  font-weight: bold;
+}

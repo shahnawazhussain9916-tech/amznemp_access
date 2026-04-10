@@ -87,3 +87,7 @@
   margin-top: 10px;
   color: #555;
 }
+.active-row {
+  background-color: #ffe58a !important;
+  cursor: pointer;
+}
