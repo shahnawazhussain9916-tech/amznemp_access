@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/amznemp_access/static/css/main.6934f349.css",
-    "main.js": "/amznemp_access/static/js/main.0cb22ae2.js",
+    "main.js": "/amznemp_access/static/js/main.7eea3e4c.js",
     "static/js/488.37e87b1e.chunk.js": "/amznemp_access/static/js/488.37e87b1e.chunk.js",
     "index.html": "/amznemp_access/index.html",
     "main.6934f349.css.map": "/amznemp_access/static/css/main.6934f349.css.map",
-    "main.0cb22ae2.js.map": "/amznemp_access/static/js/main.0cb22ae2.js.map",
+    "main.7eea3e4c.js.map": "/amznemp_access/static/js/main.7eea3e4c.js.map",
     "488.37e87b1e.chunk.js.map": "/amznemp_access/static/js/488.37e87b1e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6934f349.css",
-    "static/js/main.0cb22ae2.js"
+    "static/js/main.7eea3e4c.js"
   ]
 }
